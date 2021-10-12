@@ -38,5 +38,9 @@ while (!rangeNum || rangeNum < 1) {
     rangeNum = parseInt(rangeNum);
     // rangeNum = parseInt(prompt(enterNumText));
 }
+// Creates the random number (number to be guessed) using the range number entered by the user. 
+//Math.random() is any number from 0 to 1 (decimals too)
+randomNum = Math.floor(Math.random()* rangeNum) + 1;
+
     break;
 }
